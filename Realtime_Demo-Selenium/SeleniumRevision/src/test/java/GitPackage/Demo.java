@@ -1,8 +1,11 @@
 package GitPackage;
 
+import org.testng.annotations.Test;
+
 public class Demo {
 
-	public static void main(String[] args) {
+	@Test
+	public static void xyz() {
 		// TODO Auto-generated method stub
 		
 		System.out.println("Hii");
